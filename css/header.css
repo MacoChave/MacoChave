@@ -11,14 +11,11 @@
 .toggle-menu {
     width: 32pt;
     height: 32pt;
-    background: linear-gradient(
-        to top, 
-        var(--primary-color), 
-        var(--dark-primary-color));
+    border-radius: 50%;
+    background: var(--primary-color);
     position: fixed;
-    text-align: right;
     top: 0;
-    Right: 0;
+    right: 1rem;
     z-index: 10;
 }
 
