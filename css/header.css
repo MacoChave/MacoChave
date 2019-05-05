@@ -104,7 +104,3 @@
         color: var(--text-or-icon-color);
     }
 }
-
-.description {
-    overflow: hidden;
-}

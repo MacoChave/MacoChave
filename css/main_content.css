@@ -1,0 +1,31 @@
+.main {
+    text-align: center;
+    padding: 1rem;
+}
+
+.description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.description .avatar {
+    width: 100pt;
+    height: 100pt;
+    border-radius: 50%;
+}
+
+.description p {
+    margin: 1rem;
+}
+
+.knowledges-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    row-gap: 10pt;
+}
+
+.knowledges-item {
+    border: 1px solid blue;
+}
