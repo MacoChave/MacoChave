@@ -9,7 +9,7 @@
 }
 
 .toggle-menu {
-    width: 100%;
+    width: 32pt;
     height: 32pt;
     background: linear-gradient(
         to top, 
@@ -18,7 +18,7 @@
     position: fixed;
     text-align: right;
     top: 0;
-    left: 0;
+    Right: 0;
     z-index: 10;
 }
 
