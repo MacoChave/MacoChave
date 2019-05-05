@@ -11,7 +11,9 @@
     <meta name="robots" content="Index, Follow">
     <meta name="google" content="nositelinksearchbox">
     <title>Marco Chávez</title>
+    <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -19,16 +21,19 @@
         <div class="banner">
             <img src="http://lorempixel.com/1024/720" alt="Banner">
         </div>
+        <div class="toggle-menu">
+            <i class="material-icons main-menu-button">menu</i>
+        </div>
         <nav class="menu-container">
-            <ul class="menu">
+            <ul class="menu hide-menu">
                 <li class="menu_item">
-                    <a class="menu__link"href="#">Inicio</a>
+                    <a class="menu__link"href="#"><i class="material-icons">home</i> Inicio</a>
                 </li>
                 <li class="menu_item">
-                    <a class="menu__link"href="#knowledges">Conocimiento</a>
+                    <a class="menu__link"href="#knowledges"><i class="material-icons">code</i> Conocimiento</a>
                 </li>
                 <li class="menu_item">
-                    <a class="menu__link"href="#projects">Proyectos</a>
+                    <a class="menu__link"href="#projects"><i class="material-icons">build</i> Proyectos</a>
                 </li>
             </ul>
         </nav>
@@ -48,23 +53,25 @@
             <div class="knowledges-container">
                 <div class="knowledges-item">
                     <h3>Desarrollo Web</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing eli class="social-item"t. Ut laboriosam ipsum dicta ipsam eaque a inventore dolores possimus incidunt soluta quasi, dolore expli class="social-item"cabo, accusantium blanditiis ali class="social-item"quam labore qui nobis assumenda.</p>
+                    <p>Poseo conocimientos intermedios sobre HTML, CSS Y JavaScript para la elaboración de páginas web estáticas. Además de conocimientos básicos sobre Angular 7</p>
+                    <p>También conocimientos básicos sobre lenguajes del lado del servidor, como PHP, NodeJS, JavaServerPages y tecnologías .NET.</p>
                 </div>
                 <div class="knowledges-item">
-                    <h3>Desarrollo Backend</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing eli class="social-item"t. Doloribus enim, magnam quisquam quis sit expli class="social-item"cabo simili class="social-item"que iusto dicta pariatur, li class="social-item"bero laborum voluptate tempore vitae id ducimus ratione repellendus minus eum!</p>
+                    <h3>Desarrollo Desktop</h3>
+                    <p>Mis conocimientos en lenguajes de programación en entornos de escritorio son de nivel intermedio.</p>
+                    <p>Tengo conocimientos sobre JAVA, tecnologías .NET y C++ con el framework QT</p>
                 </div>
                 <div class="knowledges-item">
                     <h3>Desarrollo Móvil</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing eli class="social-item"t. Inventore ea perferendis dicta asperiores, ali class="social-item"quid ratione, perspiciatis maiores porro praesentium minima deleniti, vitae earum nesciunt a fuga culpa distinctio eius possimus.</p>
+                    <p>Poseo conocimiento intermedio sobre desarrollo Android.</p>
                 </div>
                 <div class="knowledges-item">
                     <h3>Estructura de datos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing eli class="social-item"t. Deleniti earum ali class="social-item"as voluptas cumque nulla ad id iure, veli class="social-item"t reprehenderit nobis consectetur corrupti facili class="social-item"s dicta aut accusantium ipsam obcaecati! Distinctio, temporibus.</p>
+                    <p>Puedo implementar estructuras de datos en C, C++ y JAVA.</p>
                 </div>
                 <div class="knowledges-item">
                     <h3>Base de datos</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli class="social-item"t. Obcaecati quibusdam dicta perspiciatis nihil atque inventore nam beatae? Placeat, odit perferendis accusamus dignissimos, voluptatem cupiditate, deserunt quas aperiam minus quia nemo.</p>
+                    <p>Tengo conocimientos de SQL. He utilizado MySQL, SQL Server, PostgreSQL y OracleDB.</p>
                 </div>
             </div>
         </section>
@@ -111,5 +118,6 @@
         </div>
         <p class="copyright">Diseñado por: Marco Chávez</p>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
