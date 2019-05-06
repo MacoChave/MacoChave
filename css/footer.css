@@ -1,0 +1,46 @@
+.footer {
+    padding: 2rem;
+    background: var(--primary-text);
+    color: var(--text-or-icon-color);
+}
+
+.social-container {
+    display: grid;
+    grid-template-areas: "social social"
+                         "contact contact"
+                         "copyright copyright";
+    grid-gap: 2rem;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.social {
+    grid-area: social;
+}
+
+.copyright {
+    grid-area: copyright;
+}
+
+.social_item {
+    list-style: none;
+}
+.social__link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-or-icon-color);
+}
+.copyright {
+    text-align: center;
+}
+
+@media screen and (min-width: 426px) {
+    .social-container {
+        display: grid;
+        grid-template-areas: "social contact"
+                             "copyright copyright";
+    }
+}

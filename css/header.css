@@ -29,6 +29,7 @@
     top: 32pt;
     right: 1rem;
     width: 3rem;
+    z-index: 5;
 }
 
 .menu {
@@ -68,7 +69,7 @@
 
     .menu-container {
         width: 100vw;
-        height: 48pt;
+        height: 45pt;
         left: 0;
         top: 0;
     }
@@ -77,11 +78,10 @@
         width: 100%;
         height: 100%;
         border-radius: 0;
-        position: relative;
+        padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: visible;
         background: var(--primary-color);
         clip-path: ellipse(100% 100% at 50% 0);
     }

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main_content.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <header class="banner-container">
@@ -44,7 +45,7 @@
         <h1>Portafolio</h1>
         <h2>Marco Antonio Fidencio Chávez Fuentes</h2>
         <section id="description" class="description">
-            <img class="avatar" src="http://lorempixel.com/600/600" alt="avatar">
+            <img class="avatar" src="./assets/logo.svg" alt="avatar">
             <p>Estudio Ingeniería en Ciencias y Sistemas.</p>
             <p>Soy un chico de Guatemala que le gusta programar, diseñar y aprender nuevas tecnologías y lenguajes de programación.</p>
             <p>Me gusta ayudar con mis conocimientos a los colegas estudiantes que lo necesiten.</p>
@@ -52,52 +53,84 @@
         </section>
         <section id="knowledges" class="knowledges">
             <h2>¿Qué puedo hacer?</h2>
-            <div class="knowledges-container">
-                <div class="knowledges-item">
-                    <h3>Desarrollo Web</h3>
-                    <p>Poseo conocimientos intermedios sobre HTML, CSS Y JavaScript para la elaboración de páginas web estáticas. Además de conocimientos básicos sobre Angular 7</p>
-                    <p>También conocimientos básicos sobre lenguajes del lado del servidor, como PHP, NodeJS, JavaServerPages y tecnologías .NET.</p>
+            <div class="container">
+                <div class="item">
+                    <div class="title">
+                        <h3>Desarrollo Web</h3>
+                    </div>
+                    <div class="contain">
+                        <p>Poseo conocimientos intermedios sobre HTML, CSS Y JavaScript para la elaboración de páginas web estáticas. Además de conocimientos básicos sobre Angular 7</p>
+                        <p>También conocimientos básicos sobre lenguajes del lado del servidor, como PHP, NodeJS, JavaServerPages y tecnologías .NET.</p>
+                    </div>
                 </div>
-                <div class="knowledges-item">
-                    <h3>Desarrollo Desktop</h3>
-                    <p>Mis conocimientos en lenguajes de programación en entornos de escritorio son de nivel intermedio.</p>
-                    <p>Tengo conocimientos sobre JAVA, tecnologías .NET y C++ con el framework QT</p>
+                <div class="item">
+                    <div class="title">
+                        <h3>Desarrollo Desktop</h3>
+                    </div>
+                    <div class="contain">
+                        <p>Mis conocimientos en lenguajes de programación en entornos de escritorio son de nivel intermedio.</p>
+                        <p>Tengo conocimientos sobre JAVA, tecnologías .NET y C++ con el framework QT</p>
+                    </div>
                 </div>
-                <div class="knowledges-item">
-                    <h3>Desarrollo Móvil</h3>
-                    <p>Poseo conocimiento intermedio sobre desarrollo Android.</p>
+                <div class="item">
+                    <div class="title">
+                        <h3>Desarrollo Móvil</h3>
+                    </div>
+                    <div class="contain">
+                        <p>Poseo conocimiento intermedio sobre desarrollo Android.</p>
+                    </div>
                 </div>
-                <div class="knowledges-item">
-                    <h3>Estructura de datos</h3>
-                    <p>Puedo implementar estructuras de datos en C, C++ y JAVA.</p>
+                <div class="item">
+                    <div class="title">
+                        <h3>Estructura de datos</h3>
+                    </div>
+                    <div class="contain">
+                        <p>Puedo implementar estructuras de datos en C, C++ y JAVA.</p>
+                    </div>
                 </div>
-                <div class="knowledges-item">
-                    <h3>Base de datos</h3>
-                    <p>Tengo conocimientos de SQL. He utilizado MySQL, SQL Server, PostgreSQL y OracleDB.</p>
+                <div class="item">
+                    <div class="title">
+                        <h3>Base de datos</h3>
+                    </div>
+                    <div class="contain">
+                        <p>Tengo conocimientos de SQL. He utilizado MySQL, SQL Server, PostgreSQL y OracleDB.</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="projects" class="projects">
             <h2>¿Qué he hecho?</h2>
-            <div class="projects-container">
-                <div class="projects-item">
-                    <h3>Aplicaciones pequeñas en Android</h3>
-                    <p>He desarrollado aplicaciones pequeñas para móviles Android que me han solicitado o bien me ha dado la inquietud de acerlas para optimizar algún proceso de la vida cotidiana de todos</p>
+            <div class="container">
+                <div class="item">
+                    <div class="title">
+                        <h3>Aplicaciones pequeñas en Android</h3>
+                    </div>
+                    <div class="contain">
+                        <p>He desarrollado aplicaciones pequeñas para móviles Android que me han solicitado o bien me ha dado la inquietud de acerlas para optimizar algún proceso de la vida cotidiana de todos</p>
+                    </div>
                 </div>
-                <div class="projects-item">
-                    <h3>Tutoriales</h3>
-                    <p>He creado tutoriales tanto en video en mi canal de YouTube, como escritas en mi blog sobre temas de interés que pienso sea de ayuda para aquellos que están empezando como yo</p>
+                <div class="item">
+                    <div class="title">
+                        <h3>Tutoriales</h3>
+                    </div>
+                    <div class="contain">
+                        <p>He creado tutoriales tanto en video en mi canal de YouTube, como escritas en mi blog sobre temas de interés que pienso sea de ayuda para aquellos que están empezando como yo</p>
+                    </div>
                 </div>
-                <div class="projects-item">
-                    <h3>Repositorios</h3>
-                    <p>Tengo varios repositorios en mi cuenta de GitHub sobre cualquier tipo de proyecto que he desarrollado.</p>
+                <div class="item">
+                    <div class="title">
+                        <h3>Repositorios</h3>
+                    </div>
+                    <div class="contain">
+                        <p>Tengo varios repositorios en mi cuenta de GitHub sobre cualquier tipo de proyecto que he desarrollado.</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="social-container">
-            <ul class="social">
+            <ul class="contact">
                 <li class="social_item">
                     <a class="social__link" href="">Mail</a>
                 </li>
@@ -107,6 +140,8 @@
                 <li class="social_item">
                     <a class="social__link" href="">Git Hub</a>
                 </li>
+            </ul>
+            <ul class="social">
                 <li class="social_item">
                     <a class="social__link" href="">Twitter</a>
                 </li>
@@ -117,8 +152,8 @@
                     <a class="social__link" href="">Canal de YouTube</a>
                 </li>
             </ul>
+            <p class="copyright">Diseñado por: Marco Chávez</p>
         </div>
-        <p class="copyright">Diseñado por: Marco Chávez</p>
     </footer>
     <script src="./js/menu.js"></script>
 </body>
