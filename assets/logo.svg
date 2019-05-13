@@ -1,22 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="11in"
+   height="8.5in"
+   viewBox="0 0 279.39999 215.9"
    version="1.1"
-   width="600"
-   height="600"
-   id="svg152"
-   viewBox="0 0 600 600"
-   sodipodi:docname="web-design-logo.svg"
+   id="svg8"
+   sodipodi:docname="Mi-Logo.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="251.15546"
+     inkscape:cy="361.61352"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="in"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     showborder="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid817"
+       units="mm"
+       empspacing="5"
+       color="#ff3f42"
+       opacity="0.1254902"
+       empcolor="#ff3f42"
+       empopacity="0.1254902"
+       gridanglex="30"
+       gridanglez="30"
+       spacingy="20"
+       enabled="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid819"
+       spacingx="2.6458333"
+       spacingy="2.6458333"
+       enabled="false"
+       visible="true" />
+  </sodipodi:namedview>
   <metadata
-     id="metadata156">
+     id="metadata5">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -27,116 +78,37 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="704"
-     id="namedview154"
-     showgrid="false"
-     inkscape:zoom="0.84281414"
-     inkscape:cx="318.53431"
-     inkscape:cy="308.273"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg152" />
-  <defs
-     id="defs136">
-    <linearGradient
-       id="grad1">
-      <stop
-         offset="201392128.0000%"
-         stop-color="#f1f1f1"
-         stop-opacity="1.0000"
-         id="stop128" />
-      <stop
-         offset="201392197.0000%"
-         stop-color="#ffffff"
-         stop-opacity="1.0000"
-         id="stop130" />
-      <stop
-         offset="100.0000%"
-         stop-color="#ffffff"
-         stop-opacity="1.0000"
-         id="stop132" />
-    </linearGradient>
-    <linearGradient
-       xlink:href="#grad1"
-       id="grad2"
-       x1="0"
-       y1="0"
-       x2="0"
-       y2="1"
-       gradientTransform="rotate(-147,0.5,0.5)"
-       gradientUnits="objectBoundingBox" />
-  </defs>
-  <path
-     d="m 228.12653,292.39603 49.63503,37.34908 49.63522,-37.34908 -49.63522,-37.35057 -31.42998,4.72511 z"
-     style="fill:#009bc4;fill-rule:evenodd;stroke-width:2.15991759"
-     id="path140"
-     inkscape:connector-curvature="0" />
-  <path
-     d="m 385.4855,217.6949 -49.63503,-37.34908 -49.63503,37.34908 49.63503,37.35056 33.96459,-9.34047 z"
-     style="fill:#999999;fill-rule:evenodd;stroke-width:2.15991759"
-     id="path142"
-     inkscape:connector-curvature="0" />
-  <path
-     d="m 178.49151,255.04423 99.27005,-74.69841 49.63522,37.34908 -99.27025,74.69989 z"
-     style="fill:#006a95;fill-rule:evenodd;stroke-width:2.15991759"
-     id="path144"
-     inkscape:connector-curvature="0" />
-  <path
-     d="m 435.12053,255.0467 -99.27006,74.69841 -49.63503,-37.34908 99.27006,-74.69965 z"
-     style="fill:#4c4c4c;fill-rule:evenodd;stroke-width:2.15991759"
-     id="path146"
-     inkscape:connector-curvature="0" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1000;font-family:sans-serif;letter-spacing:-25.48003197px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="162.55067"
-     y="263.03366"
-     id="text19"><tspan
-       sodipodi:role="line"
-       id="tspan17"
-       x="162.55067"
-       y="20273.424"
-       style="letter-spacing:-25.48003197px" /><tspan
-       sodipodi:role="line"
-       x="162.55067"
-       y="60273.426"
-       style="letter-spacing:-25.48003197px"
-       id="tspan21" /><tspan
-       sodipodi:role="line"
-       x="162.55067"
-       y="100273.42"
-       style="letter-spacing:-25.48003197px"
-       id="tspan23" /><tspan
-       sodipodi:role="line"
-       x="162.55067"
-       y="140273.42"
-       style="letter-spacing:-25.48003197px"
-       id="tspan31" /></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:86.39670563px;line-height:1000;font-family:sans-serif;letter-spacing:48.94373703px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.15991759"
-     x="22.467901"
-     y="375.0094"
-     id="text41"
-     transform="scale(0.87592455,1.1416508)"><tspan
-       sodipodi:role="line"
-       id="tspan39"
-       x="22.467901"
-       y="375.0094"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Kaushan Script';-inkscape-font-specification:'Kaushan Script';letter-spacing:23.75909424px;stroke-width:2.15991759"><tspan
-   style="fill:#2a7fff;stroke-width:2.15991759"
-   id="tspan43">Maco</tspan> <tspan
-   style="fill:#333333;stroke-width:2.15991759"
-   id="tspan45">Chave</tspan></tspan></text>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-81.099983)">
+    <path
+       id="path850"
+       d="m 123.64413,120.13111 -69.282074,39.99963 69.281044,39.99911 34.64078,-19.99982 -34.63975,-19.99929 17.32039,-9.99991 -17.31987,-9.99939 17.32039,-9.99991 z"
+       style="opacity:1;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path854"
+       d="m 158.28543,120.13163 -34.64078,19.99982 34.63974,19.99929 -17.32039,9.99991 17.31988,9.99939 -17.32039,9.9999 17.3209,10.00043 69.28208,-39.99963 z"
+       style="opacity:1;fill:#004080;fill-opacity:0.98421056;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.0092926px;line-height:1000;font-family:'Baloo Bhai';-inkscape-font-specification:'Baloo Bhai, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:2.76254821px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21006876"
+       x="52.897778"
+       y="237.67319"
+       id="text862"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan966"
+         x="52.897778"
+         y="237.67319"
+         style="stroke-width:0.21006876">Maco Chave</tspan></text>
+  </g>
 </svg>
