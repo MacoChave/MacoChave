@@ -1,12 +1,23 @@
 :root {
-    --title-font: 'Montserrat', sans-serif;
-    --body-font: 'Lato', sans-serif;
-    --dark-primary-color: #00796B;
-    --light-primary-color: #B2DFDB;
-    --primary-color: #009688;
-    --text-or-icon-color: #FFFFFF;
-    --accent-color: #FF5252;
-    --primary-text: #212121;
-    --secondary-text: #757575;
-    --divider-color: #BDBDBD;
+	--title-font: 'Rubik', sans-serif;
+	--body-font: 'Poppins', sans-serif;
+	/* LIGHT THEME */
+	/* --light-primary-color: #b2dfdb; */
+	--light-dark-color: #1a5175;
+	--light-primary-color: #2574a9;
+	--light-icon-color: #ffffff;
+	--light-accent-color: #9f5afd;
+	--light-text-color: #24252a;
+	--light-background-color: #e4f1fe;
+	/* --secondary-text: #757575; */
+	/* --divider-color: #bdbdbd; */
+	/* DARK THEME */
+	--dark-primary-color: #1e1e1e;
+	--dark-dark-color: #171717;
+	--dark-text-color: #ffffff;
+	--dark-background: #444444;
+	--dark-accent: #9f5afd;
+	/* SIZES */
+	--profile-size: 100px;
+	--logo-size: 100px;
 }

@@ -1,103 +1,160 @@
-.banner-container {
-    position: relative;
-    margin-bottom: 48pt;
+.header-container {
+	background: var(--light-primary-color);
+	color: var(--light-icon-color);
+	height: 100vh;
 }
 
-.banner {
-    display: none;
-    overflow: hidden;
+.profile__container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+
+.profile__image {
+	background: url(../assets/profile_image.jpg) center / contain;
+	border-radius: 50%;
+	height: var(--profile-size);
+	width: var(--profile-size);
+}
+
+.services__container {
+	height: 3rem;
+	overflow: hidden;
+}
+
+.services__list {
+	padding-top: 3rem;
+	animation: change 10s ease-in-out infinite;
+}
+
+.services__item {
+	line-height: 3rem;
+	margin: 0;
+}
+
+@keyframes change {
+	0%,
+	12.5% {
+		transform: translateY(0rem);
+	}
+	12.5%,
+	25% {
+		transform: translateY(-3rem);
+	}
+	25%,
+	37.5% {
+		transform: translateY(-6rem);
+	}
+	37.5%,
+	50% {
+		transform: translateY(-9rem);
+	}
+	50%,
+	62.5% {
+		transform: translateY(-12rem);
+	}
+	62.5%,
+	75% {
+		transform: translateY(-15rem);
+	}
+	75%,
+	87.5% {
+		transform: translateY(-18rem);
+	}
+	87.5%,
+	100% {
+		transform: translateY(-21rem);
+	}
 }
 
 .toggle-menu {
-    width: 32pt;
-    height: 32pt;
-    border-radius: 50%;
-    background: var(--primary-color);
-    position: fixed;
-    top: 0;
-    right: 1rem;
-    z-index: 10;
-}
-
-.main-menu-button {
-    cursor: pointer;
-    margin-right: 1.5rem;
+	background: var(--light-primary-color);
+	border-radius: 50%;
+	cursor: pointer;
+	height: 32pt;
+	position: sticky;
+	right: 1rem;
+	top: 0;
+	width: 32pt;
+	z-index: 10;
 }
 
 .menu-container {
-    position: fixed;
-    top: 32pt;
-    right: 1rem;
-    width: 3rem;
-    z-index: 5;
+	position: sticky;
+	right: 1rem;
+	top: 32pt;
+	width: 3rem;
+	z-index: 5;
 }
 
 .menu {
-    width: 100%;
-    height: 40vh;
-    border-radius: 1.5rem;
-    background: var(--primary-color);
-    transition: 1s height ease-out;
-    padding-left: .3rem;
-    padding-top: 1.5rem;
-    overflow: hidden;
+	background: var(--light-primary-color);
+	border-radius: 1.5rem;
+	height: 40vh;
+	overflow: hidden;
+	padding-left: 0.3rem;
+	padding-top: 1.5rem;
+	transition: 1s height ease-out;
+	width: 100%;
 }
 
 .menu .menu_item {
-    list-style: none;
+	list-style: none;
 }
 
 .menu .menu__link {
-    display: block;
-    text-decoration: none;
-    color: transparent;
+	color: transparent;
+	display: block;
+	text-decoration: none;
 }
 
 .menu .menu__link .material-icons {
-    color: var(--primary-text);
+	color: var(--light-text-color);
 }
 
 .hide-menu {
-    height: 0;
-    padding-top: 0;
+	height: 0;
+	padding-top: 0;
 }
 
 @media screen and (min-width: 426px) {
-    .toggle-menu {
-        display: none;
-    }
+	.toggle-menu {
+		display: none;
+	}
 
-    .menu-container {
-        width: 100vw;
-        height: 45pt;
-        left: 0;
-        top: 0;
-    }
+	.menu-container {
+		height: 45pt;
+		left: 0;
+		top: 0;
+		width: 100vw;
+	}
 
-    .menu {
-        width: 100%;
-        height: 100%;
-        border-radius: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: var(--primary-color);
-        clip-path: ellipse(100% 100% at 50% 0);
-    }
+	.menu {
+		align-items: center;
+		background: var(--light-primary-color);
+		border-radius: 0;
+		clip-path: ellipse(100% 100% at 50% 0);
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		padding: 0;
+		width: 100%;
+	}
 
-    .menu .menu__link {
-        color: var(--primary-text);
-        border-radius: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        border-bottom: 2px solid var(--accent-color);
-        transition: .5s box-shadow ease;
-    }
+	.menu .menu__link {
+		border-bottom: 2px solid var(--light-accent-color);
+		border-radius: 1rem;
+		color: var(--light-text-color);
+		padding-left: 1rem;
+		padding-right: 1rem;
+		transition: 0.5s box-shadow ease;
+	}
 
-    .menu .menu__link:hover, 
-    .menu .menu__link:active {
-        box-shadow: inset 0 -5rem var(--accent-color);
-        color: var(--text-or-icon-color);
-    }
+	.menu .menu__link:hover,
+	.menu .menu__link:active {
+		box-shadow: inset 0 -5rem var(--light-accent-color);
+		color: var(--light-icon-color);
+	}
 }
