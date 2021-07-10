@@ -10,11 +10,11 @@
 	.st4{font-family:'ArialMT';}
 	.st5{font-size:79.3964px;}
 	.st6{letter-spacing:7;}
-	.st7{fill:#004080;}
-	.st8{font-family:'BerlinSansFBDemi-Bold';}
-	.st9{font-size:90px;}
-	.st10{display:inline;fill:#008080;}
-	.st11{display:inline;fill:#004080;}
+	.st7{display:inline;fill:#008080;}
+	.st8{display:inline;fill:#004080;}
+	.st9{font-family:'BerlinSansFBDemi-Bold';}
+	.st10{font-size:90px;}
+	.st11{fill:#004080;}
 </style>
 <g id="svg8" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="Mi-Logo.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" class="st0">
 	
@@ -33,13 +33,13 @@
 		<text transform="matrix(1 0 0 1 149.9453 524.9291)" class="st4 st5 st6">Maco Chave</text>
 	</g>
 </g>
-<g id="Logo">
-	<polygon class="st2" points="445.2,299.8 346.8,356.5 150,243.1 346.8,129.7 388.6,153.8 332,186.4 388.6,219 346.8,243.1 	"/>
-	<polygon class="st7" points="642,243.1 445.2,356.5 403.4,332.4 460,299.8 403.4,267.2 445.2,243.1 346.8,186.4 445.2,129.7 	"/>
-	<text transform="matrix(1.0092 0 0 1 158.0248 482.2801)" class="st8 st9">Maco Chave</text>
+<g id="Logo" class="st0">
+	<polygon class="st7" points="445.2,299.8 346.8,356.5 150,243.1 346.8,129.7 388.6,153.8 332,186.4 388.6,219 346.8,243.1 	"/>
+	<polygon class="st8" points="642,243.1 445.2,356.5 403.4,332.4 460,299.8 403.4,267.2 445.2,243.1 346.8,186.4 445.2,129.7 	"/>
+	<text transform="matrix(1.0092 0 0 1 158.0248 482.2801)" class="st1 st9 st10">Maco Chave</text>
 </g>
-<g id="Favicon" class="st0">
-	<polygon class="st10" points="448.7,280.7 350.5,337.4 154.1,224 350.5,110.6 392.2,134.7 335.8,167.3 392.2,199.9 350.5,224 	"/>
-	<polygon class="st11" points="645.1,224 448.7,337.4 406.9,313.3 463.4,280.7 406.9,248.1 448.7,224 350.5,167.3 448.7,110.6 	"/>
+<g id="Favicon">
+	<polygon class="st2" points="466.1,402.5 325.9,499 45.6,306 325.9,113 385.5,154 304.9,209.5 385.5,265 325.9,306 	"/>
+	<polygon class="st11" points="746.4,306 466.1,499 406.5,458 487.1,402.5 406.5,347 466.1,306 325.9,209.5 466.1,113 	"/>
 </g>
 </svg>
