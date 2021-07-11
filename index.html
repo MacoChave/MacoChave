@@ -49,34 +49,50 @@
 		<link rel="stylesheet" href="./css/main_content.css" />
 		<link rel="stylesheet" href="./css/footer.css" />
 	</head>
-	<body>
-		<header class="header-container">
-			<div class="toggle-menu" id="toggleMenu">
-				<i class="fas fa-bars"></i>
+	<body class="scrolling-box">
+		<header id="home" class="header-container">
+			<div class="toggle-menu toggle-menu--hide" id="toggleMenu">
+				<i class="fas fa-angle-left"></i>
 			</div>
-			<nav class="menu-container">
-				<ul class="menu" id="menu">
-					<li class="menu_item">
-						<a class="menu__link" href="#">
+			<nav class="menu-container menu-container--hide" id="menu">
+				<ul class="menu">
+					<li class="menu__item">
+						<a
+							class="title menu__link"
+							onClick="hideMenu()"
+							href="#home"
+						>
 							<i class="fas fa-house-user"></i>
 							<span>Inicio</span>
 						</a>
 					</li>
-					<li class="menu_item">
-						<a class="menu__link" href="#knowledges">
+					<li class="menu__item">
+						<a
+							class="title menu__link"
+							onClick="hideMenu()"
+							href="#about"
+						>
+							<i class="fas fa-id-card-alt"></i>
+							<span>Acerca de mí</span>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a
+							class="title menu__link"
+							onClick="hideMenu()"
+							href="#knowledges"
+						>
 							<i class="fas fa-code"></i>
 							<span>Conocimiento</span>
 						</a>
 					</li>
-					<li class="menu_item">
-						<a class="menu__link" href="#projects">
+					<li class="menu__item">
+						<a
+							class="title menu__link"
+							onClick="hideMenu()"
+							href="#projects"
+						>
 							<i class="fas fa-project-diagram"></i>
-							<span>Proyectos</span>
-						</a>
-					</li>
-					<li class="menu_item">
-						<a class="menu__link" href="#projects">
-							<i class="fas fa-id-card-alt"></i>
 							<span>Proyectos</span>
 						</a>
 					</li>
@@ -97,6 +113,11 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="go-down">
+				<a href="#about">
+					<i class="fas fa-angle-down"></i>
+				</a>
 			</div>
 		</header>
 		<main class="main">
@@ -241,7 +262,7 @@
 				</div>
 			</section>
 		</main>
-		<footer class="body__description footer">
+		<footer id="footer" class="body__description footer">
 			<div class="social-container">
 				<ul class="contact">
 					<li class="social_item">
@@ -306,6 +327,6 @@
 				<p class="copyright">Diseñado por: Marco Chávez</p>
 			</div>
 		</footer>
-		<!-- <script src="./js/menu.js"></script> -->
+		<script src="./js/menu.js"></script>
 	</body>
 </html>

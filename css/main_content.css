@@ -4,6 +4,10 @@
 	text-align: center;
 }
 
+section {
+	padding-top: 5vh;
+}
+
 section,
 footer {
 	min-height: 90vh;

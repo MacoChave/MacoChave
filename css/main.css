@@ -17,3 +17,7 @@
 .body__caption {
 	text-transform: uppercase;
 }
+
+.scrolling-box {
+	scroll-behavior: smooth;
+}
