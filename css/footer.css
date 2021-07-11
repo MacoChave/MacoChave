@@ -52,11 +52,12 @@
 	padding-right: 1.5rem;
 }
 
+/* TABLET DESIGN */
 @media screen and (min-width: 426px) {
 	.social-container {
 		display: grid;
 		grid-template-areas:
-			'social contact'
-			'copyright copyright';
+			'social . contact'
+			'. copyright .';
 	}
 }

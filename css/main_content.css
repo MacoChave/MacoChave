@@ -45,6 +45,7 @@ section h2 {
 	clip-path: polygon(0 5%, 0 100%, 100% 95%, 100% 0);
 } */
 
+/* TABLET DESIGN */
 @media screen and (min-width: 426px) {
 	.container {
 		grid-gap: 2rem;
@@ -52,29 +53,27 @@ section h2 {
 	}
 }
 
+/* DESKTOP DESIGN */
 @media screen and (min-width: 769px) {
 	.main {
 		padding: 3rem;
 		text-align: center;
 	}
 
+	.flx-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 80vh;
+	}
+
+	.about__logo {
+		align-self: center;
+		background-size: cover;
+		flex: 1 0 auto;
+	}
+
 	.container {
 		grid-template-columns: repeat(3, 1fr);
-	}
-
-	.description {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(4, 1fr);
-	}
-
-	.description .avatar {
-		grid-row: span 5;
-		margin: auto;
-	}
-
-	.description p {
-		grid-column: span 2;
-		margin: auto;
 	}
 }

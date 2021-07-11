@@ -119,6 +119,7 @@
 	padding-top: 0;
 }
 
+/* TABLET DESIGN */
 @media screen and (min-width: 426px) {
 	.toggle-menu {
 		display: none;
