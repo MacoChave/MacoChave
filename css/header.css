@@ -82,10 +82,8 @@
 }
 
 .menu-container {
-	position: sticky;
-	right: 1rem;
-	top: 32pt;
-	width: 3rem;
+	position: fixed;
+	bottom: 1rem;
 	z-index: 5;
 }
 
@@ -121,7 +119,7 @@
 
 /* TABLET DESIGN */
 @media screen and (min-width: 426px) {
-	.toggle-menu {
+	/* .toggle-menu {
 		display: none;
 	}
 
@@ -157,5 +155,5 @@
 	.menu .menu__link:active {
 		box-shadow: inset 0 -5rem var(--light-accent-color);
 		color: var(--light-icon-color);
-	}
+	} */
 }
