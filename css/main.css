@@ -21,3 +21,8 @@
 html {
 	scroll-behavior: smooth;
 }
+
+.p__link {
+	color: inherit;
+	text-decoration: underline var(--accent-color) dotted 2px;
+}
