@@ -1,22 +1,23 @@
 .main {
-	background: var(--light-background-color);
+	background: var(--background-color);
+	color: var(--text-color);
 	padding: 2rem;
 	text-align: center;
 }
 
 section {
 	padding-top: 5vh;
-}
-
-section,
-footer {
 	min-height: 90vh;
 }
 
+footer {
+	min-height: 40vh;
+}
+
 section h2 {
-	background: var(--light-primary-color);
+	background: var(--primary-color);
 	border-radius: 10pt;
-	color: var(--light-icon-color);
+	color: var(--icon-color);
 	padding: 1rem;
 }
 
@@ -25,6 +26,7 @@ section h2 {
 	height: var(--logo-size);
 	margin: auto;
 	width: var(--logo-size);
+	flex: 1 0 300px;
 }
 
 .container {
@@ -33,21 +35,6 @@ section h2 {
 	margin-bottom: 1rem;
 	row-gap: 1.5rem;
 }
-
-/* .item {
-	background: var(--light-primary-color);
-	min-height: 10rem;
-	padding: 1.5rem;
-	border-radius: 10pt;
-}
-
-.item:nth-child(2n + 1) {
-	clip-path: polygon(0 0%, 5% 100%, 100% 100%, 95% 0);
-}
-
-.item:nth-child(2n) {
-	clip-path: polygon(0 5%, 0 100%, 100% 95%, 100% 0);
-} */
 
 /* TABLET DESIGN */
 @media screen and (min-width: 426px) {
@@ -64,7 +51,7 @@ section h2 {
 		text-align: center;
 	}
 
-	.flx-container {
+	.flx__container {
 		display: flex;
 		justify-content: center;
 		align-items: center;

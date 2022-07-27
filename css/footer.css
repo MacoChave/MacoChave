@@ -1,13 +1,13 @@
 .footer {
-	background: var(--light-text-color);
-	color: var(--light-icon-color);
+	background: var(--dark-color);
+	color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 2rem;
 }
 
-.social-container {
+.social__container {
 	display: grid;
 	grid-template-areas:
 		'social'
@@ -34,27 +34,25 @@
 	place-self: center;
 }
 
-.social_item {
+.social__item {
 	list-style: none;
 }
 .social__link {
+	color: inherit;
 	display: block;
-	color: var(--light-icon-color);
 	line-height: 2;
 	text-align: left;
 	text-decoration: none;
 }
-.copyright {
-	/* text-align: center; */
-}
 
 .social__link i {
+	color: inherit;
 	padding-right: 1.5rem;
 }
 
 /* TABLET DESIGN */
 @media screen and (min-width: 426px) {
-	.social-container {
+	.social__container {
 		display: grid;
 		grid-template-areas:
 			'social . contact'
