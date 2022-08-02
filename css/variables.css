@@ -5,6 +5,7 @@
 	--profile-size: 150px;
 	--logo-size: 200px;
 	--fabbutton-size: 1rem;
+	--card-size: 300px;
 }
 
 @media screen and (min-width: 426px) {
