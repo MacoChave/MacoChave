@@ -18,31 +18,33 @@
 @media (prefers-color-scheme: light) {
 	:root {
 		/* LIGHT THEME */
-		--dark-color: #1a5175;
+		--dark-color: #1e5d87;
 		--primary-color: #2574a9;
 		--accent-color: #9f5afd;
 		--icon-color: #ffffff;
-		--text-color: #24252a;
+		--text-color: #07080a;
 		--background-color: #e4f1fe;
+		--background-card: inherit;
 		/* MENU BLUR */
-		--blur-background: rgba(26, 81, 117, 0.75);
+		--blur-background: rgba(30, 93, 135, 0.75);
 		--blur-backdrop-filter: blur(4px);
-		--blur-box-shadow: 0 2px 10px rgba(26, 81, 117, 0.37);
+		--blur-box-shadow: 2px 2px 10px -5px rgba(30, 93, 135, 0.37);
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		/* DARK THEME */
-		--dark-color: #151e21;
-		--primary-color: #7b9cb2;
+		--dark-color: #1b2027;
+		--primary-color: #222831;
 		--accent-color: #cbb2ed;
-		--icon-color: #000000;
+		--icon-color: #07080a;
 		--text-color: #ffffff;
-		--background-color: #121212;
+		--background-color: #14181d;
+		--background-card: #4e535a;
 		/* MENU BLUR */
-		--blur-background: rgba(21, 30, 33, 0.75);
+		--blur-background: rgba(27, 32, 39, 0.75);
 		--blur-backdrop-filter: blur(4px);
-		--blur-box-shadow: 0 2px 10px rgba(21, 30, 33, 0.37);
+		--blur-box-shadow: 2px 2px 10px -5px rgba(122, 126, 131, 0.37);
 	}
 }
