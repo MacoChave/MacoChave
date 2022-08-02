@@ -22,11 +22,11 @@ section h2 {
 }
 
 .about__logo {
-	background: url('../assets/logo.svg') center / contain;
 	height: var(--logo-size);
-	margin: auto;
 	width: var(--logo-size);
-	flex: 1 0 300px;
+	margin: auto;
+	flex: 1 0 var(--logo-size);
+	background: url('../assets/logo-light.svg') center / contain;
 }
 
 .container {
@@ -105,6 +105,21 @@ section h2 {
 	transform: translateY(-280px) translateX(-300px);
 }
 
+/* PREFERS COLOR SCHEME */
+@media (prefers-color-scheme: light) {
+	.about__logo {
+		background: url('../assets/logo-light.svg') center / contain;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.about__logo {
+		background: url('../assets/logo-dark.svg') center / contain;
+		background-repeat: no-repeat;
+	}
+}
+
 /* TABLET DESIGN */
 @media screen and (min-width: 426px) {
 	.container {
@@ -129,8 +144,8 @@ section h2 {
 
 	.about__logo {
 		align-self: center;
-		background-size: cover;
-		flex: 1 0 auto;
+		/* background-size: cover; */
+		/* flex: 1 0 auto; */
 	}
 
 	.container {
