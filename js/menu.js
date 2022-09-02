@@ -10,3 +10,10 @@ function hideMenu() {
         main_menu.querySelector('i:nth-child(2)').classList.toggle('toggle__icon--hide')
     }
 }
+
+function scrollToTop() {
+    window.scroll({
+        top: 0,
+        behavior: "smooth"
+    })
+}
